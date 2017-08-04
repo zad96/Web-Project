@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="login-css.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="login.js"></script>
+<title>Attendance</title>
+</head>
+<body>
+	<div class="form">
+	<div class="user-sel" id="stud" name="stud">Student</div>
+	<div class="user-sel user-sel-unsel" id="teach" name="teach">Teacher</div>
+	<div>
+		<form action="loginStudent.php" method="POST" id="stud-login-form" name="stud-login-form">
+			<h1>LOGIN</h1>
+			<input type="text" name="username" id="user-name" placeholder="User ID" required>
+			<input type="password" name="password" id="password" placeholder="Password" required>
+			<button type="submit" id="sub-btn" name=" login" class="login-submit">Student Login</button>
+		</form>
+		<form action="loginTeacher.php" method="POST" id="teach-login-form" name="teach-login-form" style="display:none">
+			<h1>LOGIN</h1>
+			<input type="text" name="username" id="user-name" placeholder="User ID" required>
+			<input type="password" name="password" id="password" placeholder="Password" required>
+			<button type="submit" id="sub-btn" name="login" class="login-submit" >Teacher Login</button>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

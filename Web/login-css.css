@@ -1,0 +1,67 @@
+body {
+  background: url(img1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.form{
+	width:300px;
+	text-align: center;
+	background-color: #F7F7F7;
+	margin:auto;
+  margin-top: 10%;
+  padding-bottom: 20px;
+  background-color: #F7F7F7;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.user-sel {
+  padding: 20px;
+  width: 50%;
+  float: left;
+  display: inline-block; 
+  margin-bottom: 10%;
+  cursor:pointer;
+}
+
+.user-sel-unsel {
+  padding: 20px;
+  width: 50%;
+  float: left;
+  display: inline-block; 
+  margin-bottom: 10%;
+  background-color: #4d90fe;
+  color: #FFF;
+  border-left:rgb(0,0,0);
+  border-bottom:rgb(0,0,0);
+
+}
+
+
+.form input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 80%;
+  margin:0 10% 10% 10%;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  padding: 5%;
+  border-radius: 5px;
+  color: #ffffff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  border-radius: 8px;
+}
