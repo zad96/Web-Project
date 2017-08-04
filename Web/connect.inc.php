@@ -1,8 +1,8 @@
 <?php
-$servername = "";
-$username = "";
+$servername = "localhost";
+$username = "root";
 $password = "";
-$mysql_db="";
+$mysql_db="attendance";
 // Create connection
 // Check connection
 $conn =mysqli_connect($servername, $username, $password,$mysql_db);
