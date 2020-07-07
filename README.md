@@ -2,9 +2,10 @@
 The project is about ATTENDANCE MANAGER WEBSITE
 
 This website takes attendance record of students and displays appropriate attendance percentage
-It also displays the lecture when the student was absent
 
-All the teacher needs to do is to login and fill the details of class i.e(YEAR, DIVISION) note currently the database contains data of only 3rd year computer engg students and its teacher's
+It also displays the lecture when the student was absent/present
+
+The teacher needs to do is to login and fill the details of class i.e(YEAR, DIVISION) note currently the database contains data of only 3rd year computer engg students and its teacher's
 
 And then a appropriate sheet is generated which has the student's rollno as a button (green indicates present and red indicates absent) by default all the buttons on the sheet are green
 
