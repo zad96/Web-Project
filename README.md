@@ -23,3 +23,5 @@ Loging as a teacher will give you right to change the attendance sheets and add 
 Note the sheet added with the database will be added with a timestamp so that the student can view the time when he missed the lecture
 
 This is all if you need something feel free to contact me
+
+You can try logging to https://attendancemarker.000webhostapp.com/ and use the above login and password. Please use the teacher login id wisely as the free server has database limit.
